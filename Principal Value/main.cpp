@@ -1,6 +1,5 @@
 /*
    Principal-Value.cpp
- 
    Created by Austin Flores on 12/06/13.
    Copyright (c) 2013 Austin Flore. All rights reserved.
  */

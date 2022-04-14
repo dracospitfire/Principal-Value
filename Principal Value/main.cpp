@@ -37,7 +37,6 @@ int main()
         cout << "\n\tError please enter a doller amount greater than ZERO";
         cin >> withdraw;
     }
-    
     cout << "\nHow many years can you store your money in the bank?\n";
     cin >> years;
     
@@ -46,7 +45,6 @@ int main()
         cout << "\n\tError please enter number of years greater than ZERO";
         cin >> years;
     }
-
     if (years == 1)
     {
         interest = oneyearrate;
@@ -64,7 +62,6 @@ int main()
     }
     cout << "\nIn order to withdraw " << withdraw << " your will need to deposit ";
     cout << fixed << setprecision(2) << deposit << " and leave it in the bank for " << years << " years";
-    
     cout << "\n\n";
     return 0;
 }
